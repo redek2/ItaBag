@@ -3,6 +3,7 @@
 Thumbs.db
 .vscode/
 .idea/
+*.iml
 
 # --- Python / Backend ---
 __pycache__/
@@ -16,13 +17,14 @@ env/
 *.db
 
 # --- Flutter / Mobile ---
-mobile/.dart_tool/
-mobile/.flutter-plugins
-mobile/.flutter-plugin-dependencies
-mobile/.packages
-mobile/build/
-mobile/.pub-cache/
-mobile/.pub/
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugin-dependencies
+**/.packages
+**/.pub-cache/
+**/.pub/
+**/ephemeral/
 
 # --- Env variables / Secrets ---
 .env
