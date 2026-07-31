@@ -488,7 +488,7 @@
     "elevation_m": 934,
     "lat": 49.3728603,
     "lng": 20.6033492,
-    "range_name": ["Pieniny", "Karpaty"],
+    "range_name": ["Małe Pieniny (Pieniny Słowackie)", "Pieniny", "Karpaty"],
     "badges": "Korona pienin"
   },
   {
@@ -497,7 +497,15 @@
     "lat": 49.3932847,
     "lng": 20.5139025,
     "range_name": ["Małe Pieniny", "Pieniny", "Karpaty"],
-    "badges": "Korona pienin (KP)"
+    "badges": ["Korona pienin (KP)", "Korona pienin"]
+  },
+  {
+    "name": "Płaśnie (Plašná)",
+    "elevation_m": 889,
+    "lat": 49.2312000,
+    "lng": 20.2721000,
+    "range_name": ["Grupa Holicy (Pieniny Słowackie)", "Pieniny", "Karpaty"],
+    "badges": "Korona pienin"
   },
   {
     "name": "Żar",
@@ -505,7 +513,31 @@
     "lat": 49.4182008,
     "lng": 20.2299200,
     "range_name": ["Pieniny Spiskie", "Pieniny", "Karpaty"],
-    "badges": "Korona pienin (KP)"
+    "badges": ["Korona pienin (KP)", "Korona Pienin"]
+  },
+  {
+    "name": "Aksamitka",
+    "elevation_m": 840 ,
+    "lat": 49.3847156,
+    "lng": 20.4704581,
+    "range_name": ["Pieniny", "Grupa Holicy (Pieniny Słowackie)"],
+    "badges":"Korona Pienin"
+  },
+  {
+    "name": "Hombark Łapszański",
+    "elevation_m": 825,
+    "lat": 49.4154053,
+    "lng": 20.2322600,
+    "range_name": ["Pieniny", "Pieniny Spiskie"],
+    "badges": "Korona Pienin"
+  },
+  {
+    "name": "Huściawa",
+    "elevation_m": 818,
+    "lat": 49.3997356,
+    "lng": 20.5128197,
+    "range_name": ["Pieniny", "Małe Pieniny"],
+    "badges": "Korona pienin"
   },
   {
     "name": "Sokolica",
