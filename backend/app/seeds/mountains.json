@@ -4,6 +4,245 @@
     "elevation_m": 2499,
     "lat": 49.179301,
     "lng": 20.088137,
-    "range_name": "Tatry Wysokie"
+    "range_name": "Tatry"
+  },
+  {
+    "name": "Babia Góra",
+    "elevation_m": 1724,
+    "lat": 49.5730231,
+    "lng": 19.5293303,
+    "range_name": "Beskid Żywiecki"
+  },
+  {
+    "name": "Śnieżka",
+    "elevation_m": 1603,
+    "lat": 50.7360200,
+    "lng": 15.7396017,
+    "range_name": "Karkonosze"
+  },
+  {
+    "name": "Śnieżnik",
+    "elevation_m": 1425,
+    "lat": 50.2075000,
+    "lng": 16.8475581,
+    "range_name": "Masyw Śnieżnika"
+  },
+  {
+    "name": "Tarnica",
+    "elevation_m": 1346,
+    "lat": 49.0747706,
+    "lng": 22.7263228,
+    "range_name": "Bieszczady"
+  },
+  {
+    "name": "Turbacz",
+    "elevation_m": 1310,
+    "lat": 49.5428239,
+    "lng": 20.1113839,
+    "range_name": "Gorce"
+  },
+  {
+    "name": "Radziejowa",
+    "elevation_m": 1262,
+    "lat": 49.4493044,
+    "lng": 20.6041222,
+    "range_name": "Beskid Sądecki"
+  },
+  {
+    "name": "Skrzyczne",
+    "elevation_m": 1257,
+    "lat": 49.6845736,
+    "lng": 19.0302742,
+    "range_name": "Beskid Śląski"
+  },
+  {
+    "name": "Mogielica",
+    "elevation_m": 1171,
+    "lat": 49.6553200,
+    "lng": 20.2766736,
+    "range_name": "Beskid Wyspowy"
+  },
+   {
+    "name": "Wysoka Kopa",
+    "elevation_m": 1126,
+    "lat": 50.8500000,
+    "lng": 15.4202778,
+    "range_name": "Góry Izerskie"
+  },
+   {
+    "name": "Rudawiec",
+    "elevation_m": 1106,
+    "lat": 50.2448447,
+    "lng": 16.9763594,
+    "range_name": "Góry Bialskie"
+  },
+   {
+    "name": "Orlica",
+    "elevation_m": 1084,
+    "lat": 50.3532511,
+    "lng": 16.3606281,
+    "range_name": "Góry Orlickie"
+  },
+   {
+    "name": "Wysoka",
+    "elevation_m": 1050,
+    "lat": 49.3802606,
+    "lng": 20.5555017,
+    "range_name": "Pieniny"
+  },
+   {
+    "name": "Wielka Sowa",
+    "elevation_m": 1015,
+    "lat": 50.6802778,
+    "lng": 16.4855556,
+    "range_name": "Góry Sowie"
+  },
+   {
+    "name": "Lackowa",
+    "elevation_m": 997,
+    "lat": 49.4265467,
+    "lng": 21.1024789,
+    "range_name":"Beskid Niski"
+  },
+   {
+    "name": "Kowadło",
+    "elevation_m": 989,
+    "lat": 50.2638675,
+    "lng": 17.0132986,
+    "range_name": "Góry Złote"
+  },
+   {
+    "name": "Jagodna",
+    "elevation_m": 977,
+    "lat": 50.2524572,
+    "lng": 16.5644186,
+    "range_name": "Góry Bystrzyckie"
+  },
+   {
+    "name": "Skalnik",
+    "elevation_m": 945,
+    "lat": 50.8084792,
+    "lng": 15.9000581,
+    "range_name": "Góry Janowickie"
+  },
+   {
+    "name": "Waligóra",
+    "elevation_m": 934,
+    "lat": 50.6808244,
+    "lng": 16.2780881,
+    "range_name": "Góry Kamienne"
+  },
+   {
+    "name": "Czupel",
+    "elevation_m": 930,
+    "lat": 49.7678808,
+    "lng": 19.1610286,
+    "range_name": "Beskid Mały"
+  },
+   {
+    "name": "Szczeliniec Wielki",
+    "elevation_m": 919,
+    "lat": 50.4848142,
+    "lng": 16.3410064,
+    "range_name": "Góry Stołowe"
+  },
+   {
+    "name": "Lubomir",
+    "elevation_m": 904,
+    "lat": 49.7668806,
+    "lng": 20.0596717,
+    "range_name": "Beskid Makowski"
+  },
+   {
+    "name": "Biskupia Kopa",
+    "elevation_m": 890,
+    "lat": 50.2569333,
+    "lng": 17.4288597,
+    "range_name": "Góry Opawskie"
+  },
+   {
+    "name": "Chełmiec",
+    "elevation_m": 851,
+    "lat": 50.7795494,
+    "lng": 16.2109744,
+    "range_name": "Góry Wałbrzyskie"
+  },
+   {
+    "name": "Kłodzka Góra",
+    "elevation_m": 757,
+    "lat": 50.4516700,
+    "lng": 16.7532206,
+    "range_name": "Góry Bardzkie"
+  },
+   {
+    "name": "Skopiec",
+    "elevation_m": 721,
+    "lat": 50.9439267,
+    "lng": 15.8847061,
+    "range_name": "Góry Kaczawskie"
+  },
+   {
+    "name": "Ślęża",
+    "elevation_m": 718,
+    "lat": 50.8640875,
+    "lng": 16.7074964,
+    "range_name": "Masyw ślęży"
+  },
+   {
+    "name": "Łysica",
+    "elevation_m": 613,
+    "lat": 50.8916161,
+    "lng": 20.8965978,
+    "range_name": "Góry Świętokrzyskie"
   }
-]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]  
