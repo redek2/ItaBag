@@ -21,6 +21,12 @@ def read_trips(
     db: Session = Depends(get_db)
 ):
     query = db.query(models.Trip)
+    if date is not None:
+        query = query.filter(models.Trip.date == date)
+    if rating_views is not None:
+        query = query.filter(models.Trip.rating_views == rating_views)
+    if rating_effort is not None:
+        query = query.filter(models.Trip.rating_effort == rating_effort)
     if is_planned is not None:
         query = query.filter(models.Trip.is_planned == is_planned)
     if mountain_id is not None:
