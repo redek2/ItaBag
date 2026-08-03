@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, Float, Boolean, ForeignKey
+from sqlalchemy import Column, Integer, String, Float, Boolean, ForeignKey, Date
 from sqlalchemy.orm import relationship
 from .database import Base
 
@@ -45,7 +45,7 @@ class Trip(Base):
     __tablename__ = "trips"
 
     id = Column(Integer, primary_key=True, index=True)
-    date = Column(String, nullable=True)
+    date = Column(Date, nullable=True)
     gpx_path = Column(String, nullable=True)
     rating_views = Column(Integer, nullable=True)
     rating_effort = Column(Integer, nullable=True)
