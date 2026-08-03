@@ -2,6 +2,7 @@
   {
     "name": "Rysy",
     "elevation_m": 2499,
+    "prominence_m": 165,
     "lat": 49.179301,
     "lng": 20.088137,
     "range_name": ["Tatry", "Karpaty"],
@@ -10,6 +11,7 @@
   {
     "name": "Babia Góra",
     "elevation_m": 1724,
+    "prominence_m": 1075,
     "lat": 49.5730231,
     "lng": 19.5293303,
     "range_name": ["Beskid Żywiecki", "Karpaty"],
@@ -18,6 +20,7 @@
   {
     "name": "Śnieżka",
     "elevation_m": 1603,
+    "prominence_m": 1203,
     "lat": 50.7360200,
     "lng": 15.7396017,
     "range_name": ["Karkonosze", "Sudety"],
@@ -26,6 +29,7 @@
   {
     "name": "Śnieżnik",
     "elevation_m": 1425,
+    "prominence_m": 657,
     "lat": 50.2075000,
     "lng": 16.8475581,
     "range_name": ["Masyw Śnieżnika", "Sudety"],
@@ -34,14 +38,16 @@
   {
     "name": "Tarnica",
     "elevation_m": 1346,
+    "prominence_m": 494,
     "lat": 49.0747706,
     "lng": 22.7263228,
-    "range_name": ["Bieszczady", "Karpaty"],
+    "range_name": ["Bieszczady Zachodnie", "Bieszczady", "Karpaty"],
     "badges": "KGP"
   },
   {
     "name": "Turbacz",
     "elevation_m": 1310,
+    "prominence_m": 605,
     "lat": 49.5428239,
     "lng": 20.1113839,
     "range_name": ["Gorce", "Karpaty"],
@@ -50,6 +56,7 @@
   {
     "name": "Radziejowa",
     "elevation_m": 1262,
+    "prominence_m": 533,
     "lat": 49.4493044,
     "lng": 20.6041222,
     "range_name": ["Beskid Sądecki", "Karpaty"],
@@ -371,25 +378,10 @@
     "Pasmo": "Pasmo Jaworzyny Krynickiej",
     "badges": "Korona Beskidu Sądeckiego"
   },
-  {
-    "name": "Śnieżne Kotły",
-    "elevation_m": 1424,
-    "lat": 50.7361111,
-    "lng": 15.7391667,
-    "range_name": ["Karkonosze", "Sudety"],
-    "badges": "KGP"
-  },
    {
     "name": "Skrzyczne",
     "elevation_m": 1257,
-    "lat": 49.6845736,
-    "lng": 19.0302742,
-    "range_name": ["Beskid Śląski", "Karpaty"],
-    "badges": "KGP"
-  },
-  {
-    "name": "Skrzyczne",
-    "elevation_m": 1257,
+    "prominence_m": 585,
     "lat": 49.6845736,
     "lng": 19.0302742,
     "range_name": ["Beskid Śląski", "Karpaty"],
@@ -398,6 +390,7 @@
   {
     "name": "Mogielica",
     "elevation_m": 1171,
+    "prominence_m": 421,
     "lat": 49.6553200,
     "lng": 20.2766736,
     "range_name": ["Beskid Wyspowy", "Karpaty"],
@@ -406,6 +399,7 @@
    {
     "name": "Wysoka Kopa",
     "elevation_m": 1126,
+    "prominence_m": 240,
     "lat": 50.8500000,
     "lng": 15.4202778,
     "range_name": ["Góry Izerskie", "Sudety"],
@@ -414,14 +408,52 @@
    {
     "name": "Rudawiec",
     "elevation_m": 1106,
+    "prominence_m": 92,
     "lat": 50.2448447,
     "lng": 16.9763594,
     "range_name": ["Góry Bialskie", "Sudety"],
-    "badges": "KGP"
+    "badges": ["KGP", "Korona Gór Bialskich"]
+  },
+  {
+    "name": "Postawna",
+    "elevation_m": 1124,
+    "prominence_m": 3,
+    "lat": 50.2217821,
+    "lng": 17.0111503,
+    "range_name": ["Góry Bialskie", "Sudety"],
+    "badges": ["Korona Gór Bialskich"]
+  },
+  {
+    "name": "Czernica",
+    "elevation_m": 1083,
+    "prominence_m": 125,
+    "lat": 50.271776,
+    "lng": 16.965004,
+    "range_name": ["Góry Bialskie", "Sudety"],
+    "badges": ["Korona Gór Bialskich"]
+  },
+  {
+    "name": "Iwinka",
+    "elevation_m": 1079,
+    "prominence_m": 10,
+    "lat": 50.241667,
+    "lng": 16.981483,
+    "range_name": ["Góry Bialskie", "Sudety"],
+    "badges": ["Korona Gór Bialskich"]
+  },
+  {
+    "name": "Rude Krzyże",
+    "elevation_m": 1053,
+    "prominence_m": 15,
+    "lat": 50.237044,
+    "lng": 16.961557,
+    "range_name": ["Góry Bialskie", "Sudety"],
+    "badges": ["Korona Gór Bialskich"]
   },
    {
     "name": "Orlica",
     "elevation_m": 1084,
+    "prominence_m": 97,
     "lat": 50.3532511,
     "lng": 16.3606281,
     "range_name": ["Góry Orlickie", "Sudety"],
