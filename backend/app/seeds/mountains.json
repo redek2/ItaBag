@@ -66,17 +66,19 @@
   {
     "name": "Złomisty Wierch",
     "elevation_m": 1224,
-    "lat": 49.2736000,
-    "lng": 20.3439000,
+    "prominence_m": 70,
+    "lat": 49.4603278,
+    "lng": 20.5777394,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Radziejowej",
     "badges": "Korona Beskidu Sądeckiego"
   },
   {
-    "name": "Mała Radziejowa ",
+    "name": "Mała Radziejowa",
     "elevation_m": 1204,
-    "lat": 49.2709000,
-    "lng": 20.3544000,
+    "prominence_m": 12,
+    "lat": 49.4525619,
+    "lng": 20.5956289,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Radziejowej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -84,8 +86,9 @@
   {
     "name": "Wielka Przehyba",
     "elevation_m": 1193,
-    "lat": 49.2802000,
-    "lng": 20.3416000,
+    "prominence_m": 24,
+    "lat": 49.4671775,
+    "lng": 20.5710411,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Radziejowej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -93,8 +96,9 @@
   {
     "name": "Wielki Rogacz",
     "elevation_m": 1182,
-    "lat": 49.2624000,
-    "lng": 20.3637000,
+    "prominence_m": 76,
+    "lat": 49.4399306,
+    "lng": 20.6103400,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Radziejowej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -102,8 +106,9 @@
   {
     "name": "Przehyba",
     "elevation_m": 1175,
-    "lat": 49.2756000,
-    "lng": 20.3336000,
+    "prominence_m": 58,
+    "lat": 49.4656108,
+    "lng": 20.5601150,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Radziejowej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -111,8 +116,9 @@
   {
     "name": "Skałka",
     "elevation_m": 1163,
-    "lat": 49.2822000,
-    "lng": 20.3221000,
+    "prominence_m": 43,
+    "lat": 49.4726900,
+    "lng": 20.5393408,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Radziejowej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -120,17 +126,19 @@
   {
     "name":"Mały Rogacz",
     "elevation_m": 1164,
-    "lat": 49.2611000,
-    "lng":  20.3634000,
+    "prominence_m": 32,
+    "lat": 49.4367461,
+    "lng": 20.6095931,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Radziejowej",
     "badges": "Korona Beskidu Sądeckiego"
   },
   {
-    "name": "Mala Przehyba",
+    "name": "Mała Przehyba",
     "elevation_m": 1155,
-    "lat": 49.2803000,
-    "lng": 20.3316000,
+    "prominence_m": 19,
+    "lat": 49.4673356,
+    "lng": 20.5544747,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Radziejowej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -138,8 +146,9 @@
   {
     "name": "Jasiennik",
     "elevation_m": 1128,
-    "lat": 49.2848000,
-    "lng":  20.3225000,
+    "prominence_m": 41,
+    "lat": 49.4771883,
+    "lng": 20.5407489,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Radziejowej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -147,8 +156,9 @@
   {
     "name": "Czeremcha",
     "elevation_m": 1141,
-    "lat": 49.2734000,
-    "lng": 20.3206000,
+    "prominence_m": 47,
+    "lat": 49.459993,
+    "lng": 20.534198,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Radziejowej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -156,8 +166,9 @@
   {
     "name": "Zgrzypy",
     "elevation_m": 1124,
-    "lat": 49.2834000,
-    "lng": 20.3355000,
+    "prominence_m": 18,
+    "lat": 49.4751161,
+    "lng": 20.5655306,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Radziejowej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -165,8 +176,9 @@
   {
     "name": "Jaworzyna Krynicka",
     "elevation_m": 1114,
-    "lat": 49.2505000,
-    "lng": 20.5344000,
+    "prominence_m": 444,
+    "lat": 49.4180461,
+    "lng": 20.8955128,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Jaworzyny Krynickiej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -174,8 +186,9 @@
   {
     "name": "Wielka Bukowa",
     "elevation_m": 1104,
-    "lat": 49.2508000,
-    "lng": 20.5209000,
+    "prominence_m": 70,
+    "lat": 49.4188961,
+    "lng": 20.8692969,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Jaworzyny Krynickiej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -183,8 +196,9 @@
   {
     "name": "Wierch Nad Kamieniem",
     "elevation_m": 1084,
-    "lat": 49.2905000,
-    "lng": 20.4738000,
+    "prominence_m": 31,
+    "lat": 49.4847822,
+    "lng": 20.7945564,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Jaworzyny Krynickiej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -192,8 +206,9 @@
   {
     "name": "Runek",
     "elevation_m": 1081,
-    "lat": 49.2629000,
-    "lng": 20.5225000,
+    "prominence_m": 6,
+    "lat": 49.4412122,
+    "lng": 20.8738469,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Jaworzyny Krynickiej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -201,8 +216,9 @@
   {
     "name": "Pieniążna",
     "elevation_m": 1078,
-    "lat": 49.2708000,
-    "lng": 20.3308000,
+    "prominence_m": 54,
+    "lat": 49.4520392,
+    "lng": 20.5521425,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Radziejowej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -210,8 +226,9 @@
   {
     "name": "Bukowa 1",
     "elevation_m": 1077,
-    "lat": 49.2540000,
-    "lng": 20.5227000,
+    "prominence_m": 15,
+    "lat": 49.4278242,
+    "lng": 20.8744814,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Jaworzyny Krynickiej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -219,8 +236,9 @@
   {
     "name": "Czarci Wierch 2",
     "elevation_m": 1091,
-    "lat": 49.2851000,
-    "lng": 20.4817000,
+    "prominence_m": 187,
+    "lat": 49.4809617,
+    "lng": 20.8046617,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Jaworzyny Krynickiej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -228,8 +246,9 @@
   {
     "name": "Czubakowska",
     "elevation_m": 1082,
-    "lat": 49.2851000,
-    "lng": 20.4817000,
+    "prominence_m": 49,
+    "lat": 49.4382669,
+    "lng": 20.8747172,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Jaworzyny Krynickiej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -237,8 +256,9 @@
   {
     "name": "Jaworzyny",
     "elevation_m": 1068,
-    "lat": 49.2725000,
-    "lng": 20.3708000,
+    "prominence_m": 17,
+    "lat": 49.4569331,
+    "lng": 20.6179631,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Radziejowej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -246,8 +266,9 @@
   {
     "name": "Pusta Wielka",
     "elevation_m": 1061,
-    "lat": 49.2422000,
-    "lng": 20.4933000,
+    "prominence_m": 183,
+    "lat": 49.4062239,
+    "lng": 20.8257500,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Jaworzyny Krynickiej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -255,8 +276,9 @@
   {
     "name": "Spadzie",
     "elevation_m": 1058,
-    "lat": 49.2847000,
-    "lng": 20.3149000,
+    "prominence_m": 17,
+    "lat": 49.4797714,
+    "lng": 20.5303172,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Radziejowej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -264,8 +286,9 @@
   {
     "name": "Łysiny",
     "elevation_m": 1052,
-    "lat": 49.2710000,
-    "lng": 20.3157000,
+    "prominence_m": 31,
+    "lat": 49.4525400,
+    "lng": 20.5318536,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Radziejowej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -273,8 +296,9 @@
   {
     "name": "Hala Pisana",
     "elevation_m": 1044,
-    "lat": 49.2848000,
-    "lng": 20.4544000,
+    "prominence_m": 29,
+    "lat": 49.4801297,
+    "lng": 20.7621344,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Jaworzyny Krynickiej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -282,8 +306,9 @@
   {
     "name": "Wargulszańskie Góry",
     "elevation_m": 1061,
-    "lat": 49.28200000,
-    "lng": 20.4830000,
+    "prominence_m": 33,
+    "lat": 49.4697656,
+    "lng": 20.8052589,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Jaworzyny Krynickiej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -291,8 +316,9 @@
   {
     "name": "Międzyradziejówki",
     "elevation_m": 1041,
-    "lat": 49.2624000,
-    "lng": 20.3722000,
+    "prominence_m": 9,
+    "lat": 49.4408481,
+    "lng": 20.6291050,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Radziejowej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -300,8 +326,9 @@
   {
     "name": "Kotylniczy Wierch",
     "elevation_m": 1032,
-    "lat": 49.2430000,
-    "lng": 20.5227000,
+    "prominence_m": 26,
+    "lat": 49.4083767,
+    "lng": 20.8742747,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Jaworzyny Krynickiej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -309,8 +336,9 @@
   {
     "name": "Sokołowska Góra",
     "elevation_m": 1028,
-    "lat": 49.2911000,
-    "lng": 20.4600000,
+    "prominence_m": 13,
+    "lat": 49.4865658,
+    "lng": 20.7688375,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Jaworzyny Krynickiej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -318,8 +346,9 @@
   {
     "name": "Jawor (Łabowczański Wierch)",
     "elevation_m": 1040,
-    "lat": 49.2816000,
-    "lng": 20.4903000,
+    "prominence_m": 17,
+    "lat": 49.4711647,
+    "lng": 20.8162478,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Jaworzyny Krynickiej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -327,8 +356,9 @@
   {
     "name": "Kiczora",
     "elevation_m": 1024,
-    "lat": 49.2654000,
-    "lng": 20.3309000,
+    "prominence_m": 20,
+    "lat": 49.4479192,
+    "lng": 20.5520003,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Radziejowej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -336,8 +366,9 @@
   {
     "name": "Eliaszówka",
     "elevation_m": 1023,
-    "lat": 49.2404000,
-    "lng": 20.3833000,
+    "prominence_m": 129,
+    "lat": 49.4008275,
+    "lng": 20.6425767,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Radziejowej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -345,8 +376,9 @@
   {
     "name": "Czeremcha Zachodnia",
     "elevation_m": 1015,
-    "lat": 49.2746000,
-    "lng": 20.3058000,
+    "prominence_m": 22,
+    "lat": 49.4627589,
+    "lng": 20.5162517,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Radziejowej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -354,8 +386,9 @@
   {
     "name": "Parchowatka",
     "elevation_m": 1004,
-    "lat": 49.2718000,
-    "lng": 20.4700000,
+    "prominence_m": 103,
+    "lat": 49.4551119,
+    "lng": 20.7834247,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Jaworzyny Krynickiej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -363,8 +396,9 @@
   {
     "name": "Złotułki (Trześniowy Groń)",
     "elevation_m": 1001,
-    "lat": 49.2638000,
-    "lng": 20.3450000,
+    "prominence_m": 29,
+    "lat": 49.4438161,
+    "lng": 20.6471742,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Radziejowej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -372,8 +406,9 @@
   {
     "name": "Jaworzynka",
     "elevation_m": 1001,
-    "lat": 49.2432000,
-    "lng": 20.4957000,
+    "prominence_m": 23,
+    "lat": 49.4088561,
+    "lng": 20.8325344,
     "range_name": ["Beskid Sądecki", "Karpaty"],
     "Pasmo": "Pasmo Jaworzyny Krynickiej",
     "badges": "Korona Beskidu Sądeckiego"
@@ -462,6 +497,7 @@
   {
     "name": "Wysoka",
     "elevation_m": 1050,
+    "prominence_m": 251,
     "lat": 49.3802606,
     "lng": 20.5555017,
     "range_name": ["Małe Pieniny", "Pieniny", "Karpaty"],
@@ -470,6 +506,7 @@
   {
     "name": "Smerekowa",
     "elevation_m": 1015,
+    "prominence_m": 79,
     "lat": 49.3754375,
     "lng": 20.5770106,
     "range_name": ["Małe Pieniny", "Pieniny", "Karpaty"],
@@ -478,14 +515,16 @@
   {
     "name": "Okrąglica (Trzy Korony)",
     "elevation_m": 982,
+    "prominence_m": 333,
     "lat": 49.4138331,
     "lng": 20.4142156,
-    "range_name": ["Pieniny", "Karpaty"],
+    "range_name": ["Pieniny Właściwe", "Pieniny", "Karpaty"],
     "badges": "Korona pienin (KP)"
   },
   {
     "name": "Wierchliczka",
     "elevation_m": 964,
+    "prominence_m": 60,
     "lat": 49.3830469,
     "lng": 20.5921522,
     "range_name": ["Małe Pieniny", "Pieniny", "Karpaty"],
@@ -494,6 +533,7 @@
   {
     "name": "Watrisko",
     "elevation_m": 960,
+    "prominence_m": 24,
     "lat": 49.3844897,
     "lng": 20.5795836,
     "range_name": ["Małe Pieniny", "Pieniny", "Karpaty"],
@@ -502,6 +542,7 @@
   {
     "name": "Borsuczyny",
     "elevation_m": 939,
+    "prominence_m": 25,
     "lat": 49.3855475,
     "lng": 20.5464608,
     "range_name": ["Małe Pieniny", "Pieniny", "Karpaty"],
@@ -510,6 +551,7 @@
   {
     "name": "Durbaszka",
     "elevation_m": 934,
+    "prominence_m": 10,
     "lat": 49.3869522,
     "lng": 20.5365867,
     "range_name": ["Małe Pieniny", "Pieniny", "Karpaty"],
@@ -518,6 +560,7 @@
   {
     "name": "Fakľovka",
     "elevation_m": 934,
+    "prominence_m": 50,
     "lat": 49.3728603,
     "lng": 20.6033492,
     "range_name": ["Małe Pieniny (Pieniny Słowackie)", "Pieniny", "Karpaty"],
@@ -526,6 +569,7 @@
   {
     "name": "Wysoki Wierch",
     "elevation_m": 898,
+    "prominence_m": 78,
     "lat": 49.3932847,
     "lng": 20.5139025,
     "range_name": ["Małe Pieniny", "Pieniny", "Karpaty"],
@@ -534,6 +578,7 @@
   {
     "name": "Płaśnie (Plašná)",
     "elevation_m": 889,
+    "prominence_m": 202,
     "lat": 49.2312000,
     "lng": 20.2721000,
     "range_name": ["Grupa Holicy (Pieniny Słowackie)", "Pieniny", "Karpaty"],
@@ -542,6 +587,7 @@
   {
     "name": "Żar",
     "elevation_m": 883 ,
+    "prominence_m": 148,
     "lat": 49.4182008,
     "lng": 20.2299200,
     "range_name": ["Pieniny Spiskie", "Pieniny", "Karpaty"],
@@ -550,6 +596,7 @@
   {
     "name": "Aksamitka",
     "elevation_m": 840 ,
+    "prominence_m": 35,
     "lat": 49.3847156,
     "lng": 20.4704581,
     "range_name": ["Pieniny", "Grupa Holicy (Pieniny Słowackie)"],
@@ -558,6 +605,7 @@
   {
     "name": "Hombark Łapszański",
     "elevation_m": 825,
+    "prominence_m": 1,
     "lat": 49.4154053,
     "lng": 20.2322600,
     "range_name": ["Pieniny", "Pieniny Spiskie"],
@@ -566,22 +614,115 @@
   {
     "name": "Huściawa",
     "elevation_m": 818,
+    "prominence_m": 18,
     "lat": 49.3997356,
     "lng": 20.5128197,
     "range_name": ["Pieniny", "Małe Pieniny"],
     "badges": "Korona pienin"
   },
   {
+    "name": "Góra zamkowa",
+    "elevation_m": 799,
+    "prominence_m": 1,
+    "lat": 49.4196397,
+    "lng": 20.4205194,
+    "range_name": ["Pieniny Właściwe", "Pieniny", "Karpaty"],
+    "badges": "Korona pienin"
+  },
+  {
+    "name": "Jarmuta",
+    "elevation_m": 794,
+    "prominence_m": 99,
+    "lat": 49.4109844,
+    "lng": 20.5058831,
+    "range_name": ["Małe pieniny", "Pieniny", "Karpaty"],
+    "badges": "Korona pienin"
+  },
+  {
+    "name": "Cisówka",
+    "elevation_m": 777,
+    "prominence_m": 100,
+    "lat": 49.4151819,
+    "lng": 20.2789222,
+    "range_name": ["Pieniny Spiskie", "Pieniny", "Karpaty"],
+    "badges": "Korona pienin"
+  },
+  {
+    "name": "Czerteż",
+    "elevation_m": 774,
+    "prominence_m": 81,
+    "lat": 49.4230181,
+    "lng": 20.4324058,
+    "range_name": ["Pieniny Właściwe", "Pieniny", "Karpaty"],
+    "badges": "Korona pienin"
+  },
+  {
+    "name": "Czertezik",
+    "elevation_m": 772,
+    "prominence_m": 32,
+    "lat": 49.4222506,
+    "lng": 20.4342153,
+    "range_name": ["Pieniny Właściwe", "Pieniny", "Karpaty"],
+    "badges": "Korona pienin"
+  },
+  {
     "name": "Sokolica",
     "elevation_m": 747,
+    "prominence_m": 88,
     "lat": 49.4176508,
     "lng": 20.4403753,
     "range_name": ["Pieninki", "Pieniny", "Karpaty"],
     "badges": "Korona pienin (KP)"
   },
+   {
+    "name": "Szafranówka",
+    "elevation_m": 742,
+    "prominence_m": 42,
+    "lat": 49.4142108,
+    "lng": 20.4761778,
+    "range_name": ["małe Pieniny", "Pieniny", "Karpaty"],
+    "badges": "Korona pienin"
+  },
+   {
+    "name": "Witkula",
+    "elevation_m": 736,
+    "prominence_m": 25,
+    "lat": 49.4118608,
+    "lng": 20.4782369,
+    "range_name": ["Małe Pieniny", "Pieniny", "Karpaty"],
+    "badges": "Korona pienin"
+  },
+   {
+    "name": "Palenica",
+    "elevation_m": 722,
+    "prominence_m": 39,
+    "lat": 49.4186939,
+    "lng": 20.4768058,
+    "range_name": ["Małe Pieniny", "Pieniny", "Karpaty"],
+    "badges": "Korona pienin"
+  },
+   {
+    "name": "Barwinkowa Góra",
+    "elevation_m": 725,
+    "prominence_m": 33,
+    "lat": 49.4145925,
+    "lng": 20.2595522,
+    "range_name": ["Pieniny Spiskie", "Pieniny", "Karpaty"],
+    "badges": "Korona pienin"
+  },
+   {
+    "name": "Majerz",
+    "elevation_m": 689,
+    "prominence_m": 25,
+    "lat": 49.4335167,
+    "lng": 20.3415075,
+    "range_name": ["Pieniny Właściwe", "Pieniny", "Karpaty"],
+    "badges": "Korona pienin"
+  },
   {
     "name": "Wielka Sowa",
     "elevation_m": 1015,
+    "prominence_m": 484,
     "lat": 50.6802778,
     "lng": 16.4855556,
     "range_name": ["Góry Sowie", "Sudety"],
@@ -590,6 +731,7 @@
    {
     "name": "Lackowa",
     "elevation_m": 997,
+    "prominence_m": 358,
     "lat": 49.4265467,
     "lng": 21.1024789,
     "range_name": ["Beskid Niski", "Karpaty"],
@@ -598,6 +740,7 @@
    {
     "name": "Kowadło",
     "elevation_m": 989,
+    "prominence_m": 121,
     "lat": 50.2638675,
     "lng": 17.0132986,
     "range_name": ["Góry Złote", "Sudety"],
@@ -606,6 +749,7 @@
    {
     "name": "Jagodna",
     "elevation_m": 977,
+    "prominence_m": 15,
     "lat": 50.2524572,
     "lng": 16.5644186,
     "range_name": ["Góry Bystrzyckie", "Sudety"],
@@ -614,6 +758,7 @@
    {
     "name": "Skalnik",
     "elevation_m": 945,
+    "prominence_m": 220,
     "lat": 50.8084792,
     "lng": 15.9000581,
     "range_name": ["Góry Janowickie", "Sudety"],
@@ -622,6 +767,7 @@
    {
     "name": "Waligóra",
     "elevation_m": 934,
+    "prominence_m": 371,
     "lat": 50.6808244,
     "lng": 16.2780881,
     "range_name": ["Góry Kamienne", "Sudety"],
@@ -630,6 +776,7 @@
    {
     "name": "Czupel",
     "elevation_m": 930,
+    "prominence_m": 520,
     "lat": 49.7678808,
     "lng": 19.1610286,
     "range_name": ["Beskid Mały", "Karpaty"],
@@ -638,6 +785,7 @@
    {
     "name": "Szczeliniec Wielki",
     "elevation_m": 919,
+    "prominence_m": 259,
     "lat": 50.4848142,
     "lng": 16.3410064,
     "range_name": ["Góry Stołowe", "Sudety"],
@@ -646,6 +794,7 @@
    {
     "name": "Lubomir",
     "elevation_m": 904,
+    "prominence_m": 365,
     "lat": 49.7668806,
     "lng": 20.0596717,
     "range_name": ["Beskid Makowski", "Karpaty"],
@@ -654,6 +803,7 @@
    {
     "name": "Biskupia Kopa",
     "elevation_m": 890,
+    "prominence_m": 176,
     "lat": 50.2569333,
     "lng": 17.4288597,
     "range_name": ["Góry Opawskie", "Sudety"],
@@ -662,6 +812,7 @@
    {
     "name": "Chełmiec",
     "elevation_m": 851,
+    "prominence_m": 303,
     "lat": 50.7795494,
     "lng": 16.2109744,
     "range_name": ["Góry Wałbrzyskie", "Sudety"],
@@ -670,6 +821,7 @@
    {
     "name": "Kłodzka Góra",
     "elevation_m": 757,
+    "prominence_m": 14,
     "lat": 50.4516700,
     "lng": 16.7532206,
     "range_name": ["Góry Bardzkie", "Sudety"],
@@ -678,6 +830,7 @@
    {
     "name": "Skopiec",
     "elevation_m": 721,
+    "prominence_m": 8,
     "lat": 50.9439267,
     "lng": 15.8847061,
     "range_name": ["Góry Kaczawskie", "Sudety"],
@@ -686,6 +839,7 @@
    {
     "name": "Ślęża",
     "elevation_m": 718,
+    "prominence_m": 467,
     "lat": 50.8640875,
     "lng": 16.7074964,
     "range_name": ["Masyw ślęży", "Sudety"],
@@ -694,6 +848,7 @@
    {
     "name": "Łysica",
     "elevation_m": 613,
+    "prominence_m": 379,
     "lat": 50.8916161,
     "lng": 20.8965978,
     "range_name": "Góry Świętokrzyskie",
