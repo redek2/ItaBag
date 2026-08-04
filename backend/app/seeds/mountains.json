@@ -674,7 +674,7 @@
     "range_name": ["Pieninki", "Pieniny", "Karpaty"],
     "badges": "Korona pienin (KP)"
   },
-   {
+  {
     "name": "Szafranówka",
     "elevation_m": 742,
     "prominence_m": 42,
@@ -683,7 +683,7 @@
     "range_name": ["małe Pieniny", "Pieniny", "Karpaty"],
     "badges": "Korona pienin"
   },
-   {
+  {
     "name": "Witkula",
     "elevation_m": 736,
     "prominence_m": 25,
@@ -692,7 +692,7 @@
     "range_name": ["Małe Pieniny", "Pieniny", "Karpaty"],
     "badges": "Korona pienin"
   },
-   {
+  {
     "name": "Palenica",
     "elevation_m": 722,
     "prominence_m": 39,
@@ -701,7 +701,7 @@
     "range_name": ["Małe Pieniny", "Pieniny", "Karpaty"],
     "badges": "Korona pienin"
   },
-   {
+  {
     "name": "Barwinkowa Góra",
     "elevation_m": 725,
     "prominence_m": 33,
@@ -710,7 +710,7 @@
     "range_name": ["Pieniny Spiskie", "Pieniny", "Karpaty"],
     "badges": "Korona pienin"
   },
-   {
+  {
     "name": "Majerz",
     "elevation_m": 689,
     "prominence_m": 25,
@@ -728,7 +728,7 @@
     "range_name": ["Góry Sowie", "Sudety"],
     "badges": "KGP"
   },
-   {
+  {
     "name": "Lackowa",
     "elevation_m": 997,
     "prominence_m": 358,
@@ -737,7 +737,7 @@
     "range_name": ["Beskid Niski", "Karpaty"],
     "badges": "KGP"
   },
-   {
+  {
     "name": "Kowadło",
     "elevation_m": 989,
     "prominence_m": 121,
@@ -746,7 +746,7 @@
     "range_name": ["Góry Złote", "Sudety"],
     "badges": "KGP"
   },
-   {
+  {
     "name": "Jagodna",
     "elevation_m": 977,
     "prominence_m": 15,
@@ -755,7 +755,7 @@
     "range_name": ["Góry Bystrzyckie", "Sudety"],
     "badges": "KGP"
   },
-   {
+  {
     "name": "Skalnik",
     "elevation_m": 945,
     "prominence_m": 220,
@@ -764,7 +764,7 @@
     "range_name": ["Góry Janowickie", "Sudety"],
     "badges": "KGP"
   },
-   {
+  {
     "name": "Waligóra",
     "elevation_m": 934,
     "prominence_m": 371,
@@ -773,7 +773,7 @@
     "range_name": ["Góry Kamienne", "Sudety"],
     "badges": "KGP"
   },
-   {
+  {
     "name": "Czupel",
     "elevation_m": 930,
     "prominence_m": 520,
@@ -782,7 +782,7 @@
     "range_name": ["Beskid Mały", "Karpaty"],
     "badges": "KGP"
   },
-   {
+  {
     "name": "Szczeliniec Wielki",
     "elevation_m": 919,
     "prominence_m": 259,
@@ -791,7 +791,7 @@
     "range_name": ["Góry Stołowe", "Sudety"],
     "badges": "KGP"
   },
-   {
+  {
     "name": "Lubomir",
     "elevation_m": 904,
     "prominence_m": 365,
@@ -800,7 +800,7 @@
     "range_name": ["Beskid Makowski", "Karpaty"],
     "badges": "KGP"
   },
-   {
+  {
     "name": "Biskupia Kopa",
     "elevation_m": 890,
     "prominence_m": 176,
@@ -809,7 +809,7 @@
     "range_name": ["Góry Opawskie", "Sudety"],
     "badges": "KGP"
   },
-   {
+  {
     "name": "Chełmiec",
     "elevation_m": 851,
     "prominence_m": 303,
@@ -818,7 +818,7 @@
     "range_name": ["Góry Wałbrzyskie", "Sudety"],
     "badges": "KGP"
   },
-   {
+  {
     "name": "Kłodzka Góra",
     "elevation_m": 757,
     "prominence_m": 14,
@@ -827,7 +827,7 @@
     "range_name": ["Góry Bardzkie", "Sudety"],
     "badges": "KGP"
   },
-   {
+  {
     "name": "Skopiec",
     "elevation_m": 721,
     "prominence_m": 8,
@@ -836,16 +836,160 @@
     "range_name": ["Góry Kaczawskie", "Sudety"],
     "badges": "KGP"
   },
-   {
+  {
     "name": "Ślęża",
     "elevation_m": 718,
     "prominence_m": 467,
     "lat": 50.8640875,
     "lng": 16.7074964,
     "range_name": ["Masyw ślęży", "Sudety"],
-    "badges": "KGP"
+    "badges": ["KGP", "Korona Masywu Ślęży", "Odznaka Turystyczno-Krajoznawczej PTTK „Korona Masywu Ślęży”"]
   },
-   {
+  {
+    "name": "Szczytna",
+    "elevation_m": 466,
+    "prominence_m": 194,
+    "lat": 50.8179678,
+    "lng": 16.6328672,
+    "range_name": ["Wzgórza Kiełczyńskie", "Masyw ślęży", "Sudety"],
+    "badges": ["Korona Masywu Ślęży", "Odznaka Turystyczno-Krajoznawczej PTTK „Korona Masywu Ślęży”"]
+  },
+  {
+    "name": "Radunia",
+    "elevation_m": 573,
+    "prominence_m": 200,
+    "lat": 50.8375544,
+    "lng": 16.7100567,
+    "range_name": ["Masyw ślęży", "Sudety"],
+    "badges": ["Korona Masywu Ślęży"]
+  },
+  {
+    "name": "Wieżyca",
+    "elevation_m": 415,
+    "prominence_m": 29,
+    "lat": 50.8868908,
+    "lng": 16.7290097,
+    "range_name": ["Masyw ślęży", "Sudety"],
+    "badges": ["Korona Masywu Ślęży", "Odznaka Turystyczno-Krajoznawczej PTTK „Korona Masywu Ślęży”"]
+  },
+  {
+    "name": "Czernica",
+    "elevation_m": 487,
+    "prominence_m": 22,
+    "lat": 50.8283703,
+    "lng": 16.7021714,
+    "range_name": ["Grupa Radunii", "Masyw ślęży", "Sudety"],
+    "badges": "Odznaka Turystyczno-Krajoznawczej PTTK „Korona Masywu Ślęży”"
+  },
+  {
+    "name": "Gozdnica",
+    "elevation_m": 318,
+    "prominence_m": 27,
+    "lat": 50.8950153,
+    "lng": 16.7264961,
+    "range_name": ["Masyw ślęży", "Sudety"],
+    "badges": "Odznaka Turystyczno-Krajoznawczej PTTK „Korona Masywu Ślęży”"
+  },
+  {
+    "name": "Gozdnik",
+    "elevation_m": 314,
+    "prominence_m": 54,
+    "lat": 50.8562222,
+    "lng": 16.7891928,
+    "range_name": ["Wzgórza Oleszeńskie", "Masyw ślęży"],
+    "badges": "Odznaka Turystyczno-Krajoznawczej PTTK „Korona Masywu Ślęży”"
+  },
+  {
+    "name": "Kwarcowa Góra",
+    "elevation_m": 361,
+    "prominence_m": 8,
+    "lat": 50.8651092,
+    "lng": 16.6826375,
+    "range_name": ["Masyw ślęży", "Sudety"],
+    "badges": "Odznaka Turystyczno-Krajoznawczej PTTK „Korona Masywu Ślęży”"
+  },
+  {
+    "name": "Łysa Góra",
+    "elevation_m": 495,
+    "prominence_m": 3,
+    "lat": 50.8314339,
+    "lng": 16.7087514,
+    "range_name": ["Grupa Radunii", "Masyw ślęży", "Sudety"],
+    "badges": "Odznaka Turystyczno-Krajoznawczej PTTK „Korona Masywu Ślęży”"
+  },
+  {
+    "name": "Oleszenka",
+    "elevation_m": 388,
+    "prominence_m": 58,
+    "lat": 50.8376364,
+    "lng": 16.7497328,
+    "range_name": ["Wzgórza Oleszeńskie", "Masyw ślęży", "Sudety"],
+    "badges": "Odznaka Turystyczno-Krajoznawczej PTTK „Korona Masywu Ślęży”"
+  },
+  {
+    "name": "Oleszyńskie Góry",
+    "elevation_m": 384,
+    "prominence_m": 30,
+    "lat": 50.8413889,
+    "lng": 16.7558333,
+    "range_name": ["Wzgórza Oleszeńskie", "Masyw ślęży", "Sudety"],
+    "badges": "Odznaka Turystyczno-Krajoznawczej PTTK „Korona Masywu Ślęży”"
+  },
+  {
+    "name": "Skalne",
+    "elevation_m": 522,
+    "prominence_m": 7,
+    "lat": 50.8580222,
+    "lng": 16.6883606,
+    "range_name": ["Masyw ślęży", "Sudety"],
+    "badges": "Odznaka Turystyczno-Krajoznawczej PTTK „Korona Masywu Ślęży”"
+  },
+  {
+    "name": "Słupicka Góra",
+    "elevation_m": 332,
+    "prominence_m": 2,
+    "lat": 50.8266069,
+    "lng": 16.7424892,
+    "range_name": ["Grupa Radunii", "Masyw ślęży", "Sudety"],
+    "badges": "Odznaka Turystyczno-Krajoznawczej PTTK „Korona Masywu Ślęży”"
+  },
+  {
+    "name": "Stolna",
+    "elevation_m": 368,
+    "prominence_m": 18,
+    "lat": 50.8838889,
+    "lng": 16.7369444,
+    "range_name": ["Masyw ślęży", "Sudety"],
+    "badges": "Odznaka Turystyczno-Krajoznawczej PTTK „Korona Masywu Ślęży”"
+  },
+  {
+    "name": "Świerczyna",
+    "elevation_m": 414,
+    "prominence_m": 8,
+    "lat": 50.8323636,
+    "lng": 16.7328669,
+    "range_name": ["Grupa Radunii", "Masyw ślęży", "Sudety"],
+    "badges": "Odznaka Turystyczno-Krajoznawczej PTTK „Korona Masywu Ślęży”"
+  },
+  {
+    "name": "Winna Góra",
+    "elevation_m": 317,
+    "prominence_m": 34,
+    "lat": 50.8462769,
+    "lng": 16.7802792,
+    "range_name": ["Wzgórza Oleszeńskie", "Masyw ślęży", "Sudety"],
+    "badges": "Odznaka Turystyczno-Krajoznawczej PTTK „Korona Masywu Ślęży”"
+  },
+  {
+    "name": "Wrzos",
+    "elevation_m": 250,
+    "prominence_m": 3,
+    "lat": 50.8847797,
+    "lng": 16.6890097,
+    "range_name": ["Masyw ślęży", "Sudety"],
+    "badges": "Odznaka Turystyczno-Krajoznawczej PTTK „Korona Masywu Ślęży”"
+  },
+  {
     "name": "Łysica",
     "elevation_m": 613,
     "prominence_m": 379,

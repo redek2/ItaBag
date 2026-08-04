@@ -70,5 +70,11 @@
         "description": "5 najważniejszych szczytów z Gór Bialskich",
         "icon_url": "https://www.koronygor.pl/images/odznaki/korona_gor_bialskich/korona_gor_bialskich_ziel.jpg",
         "rules_url": "http://www.msw-pttk.org.pl/odznaki/reg_odznak/kzkgrp/reg_kgbi.html"
+    },
+    {
+        "name": "Odznaka Turystyczno-Krajoznawczej PTTK Korona Masywu Ślęży",
+        "description": "16 najważniejszych szczytów z masywu Ślęży",
+        "icon_url": "http://www.msw-pttk.org.pl/odznaki/o_odznakach/ok_pliki/otkkms.png",
+        "rules_url": "http://www.msw-pttk.org.pl/odznaki/reg_odznak/reg_otkkms.html"
     }
 ]
