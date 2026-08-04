@@ -1,50 +1,74 @@
 [
     {
         "name": "KGP",
-        "Address": "https://kgp.info.pl"
+        "description": "28 najwyższych szczytów każdego pasma górskiegow Polsce",
+        "icon_url": "https://kgp.info.pl/wp-content/uploads/2022/06/285567536_1475845739538012_1291517762564953141_n.png",
+        "rules_url": "https://kgp.info.pl"
     },
     {
         "name": "Korona Pienin (KP)",
-        "Address": "http://www.msw-pttk.org.pl/odznaki/reg_odznak/kzkgrp/reg_kp.html"
+        "description": "10 najważnieszych szczytów z Korony Pienin",
+        "icon_url": "https://www.koronygor.pl/images/odznaki/KoronaPienin/korona_pienin_nieb.jpg",
+        "rules_url": "http://www.msw-pttk.org.pl/odznaki/reg_odznak/kzkgrp/reg_kp.html"
     },
     {
         "name": "Korona Pienin",
-        "Address": "http://www.msw-pttk.org.pl/odznaki/reg_odznak/reg_okp_kzke.html"
+        "description": "24 najważniejsze szczyty z Korony Pienin",
+        "icon_url": "http://www.msw-pttk.org.pl/odznaki/o_odznakach/ok_pliki/okp1_kzke_br.png",
+        "rules_url": "http://www.msw-pttk.org.pl/odznaki/reg_odznak/reg_okp_kzke.html"
     },
     {
         "name": "Korona Beskidu Śląskiego",
-        "Address": "http://www.msw-pttk.org.pl/odznaki/reg_odznak/kzkgrp/reg_kbs.html"
+        "description": "30 najważniejszych szczytów z Korony Beskidu Śląskiego",
+        "icon_url": "https://www.koronygor.pl/images/odznaki/KoronaBeskiduSlaskiego/beskid_slaski_ziel_1.jpg",
+        "rules_url": "http://www.msw-pttk.org.pl/odznaki/reg_odznak/kzkgrp/reg_kbs.html"
     },
     {
         "name": "Korona Beskidu Żywieckiego",
-        "Address": "http://www.msw-pttk.org.pl/odznaki/reg_odznak/kzkgrp/reg_kbz.html"
+        "description": "35 najważniejszych szczytów z Korony Beskidu Żywieckiego",
+        "icon_url": "https://www.koronygor.pl/images/odznaki/KoronaBeskiduZywieckiego/beskid_zywiecki_ziel2.jpg",
+        "rules_url": "http://www.msw-pttk.org.pl/odznaki/reg_odznak/kzkgrp/reg_kbz.html"
     },
     {
         "name": "Korona Gorców",
-        "Address": "http://www.msw-pttk.org.pl/odznaki/reg_odznak/reg_okg.html"
+        "description": "35 najważniejszych szczytów z Korony Gorców",
+        "icon_url": "http://www.msw-pttk.org.pl/odznaki/o_odznakach/ok_pliki/okg.png",
+        "rules_url": "http://www.msw-pttk.org.pl/odznaki/reg_odznak/reg_okg.html"
     },
     {
         "name": "Korona Gór Opawskich",
-        "Address": "http://www.msw-pttk.org.pl/odznaki/reg_odznak/reg_okpkgo.html"
+        "description": "10 najważniejszych szczytów z Korony Gór Opawskich",
+        "icon_url": "http://www.msw-pttk.org.pl/odznaki/o_odznakach/ok_pliki/okpkgo.png",
+        "rules_url": "http://www.msw-pttk.org.pl/odznaki/reg_odznak/reg_okpkgo.html"
     },
     {
         "name": "Korona Kaczawska",
-        "Address": "https://pttk.pl/wp-content/uploads/2024/01/Odznaka_Korona_Kaczawska.pdf"
+        "description": "30 najważniejszych szczytów z Korony Kaczawskiej",
+        "icon_url": "http://www.msw-pttk.org.pl/odznaki/o_odznakach/ok_pliki/kk.png",
+        "rules_url": "http://www.msw-pttk.org.pl/odznaki/reg_odznak/reg_okk.html"
     },
     {
         "name": "Zdobywca Korony polskich tatr",
-        "Address": "http://www.msw-pttk.org.pl/odznaki/reg_odznak/kzkgrp/reg_zkpt.html"
+        "description": "35 najważniejszych szczytów polskich tatr",
+        "icon_url": "https://www.koronygor.pl/images/odznaki/KoronaPolskichTatr/tatry_ziel_2.jpg",
+        "rules_url": "http://www.msw-pttk.org.pl/odznaki/reg_odznak/kzkgrp/reg_zkpt.html"
     },
     {
         "name": "Korona Beskidu Wyspowego",
-        "Address": "http://www.msw-pttk.org.pl/odznaki/reg_odznak/reg_rotkbw-bw.html"
+        "description": "40 najważniejszych szczytów z Beskidu Wyspowego",
+        "icon_url": "http://www.msw-pttk.org.pl/odznaki/o_odznakach/ok_pliki/okbw.png",
+        "rules_url": "http://www.msw-pttk.org.pl/odznaki/reg_odznak/reg_rotkbw-bw.html"
     },
     {
         "name": "Korona Beskidu Sadeckiego",
-        "Address": "https://beskid.pttk.pl/kola-kluby-i-komisje/komisja-turystyki-gorskiej/odznaka-korona-beskidu-sadeckiego/"
+        "description": "35 najważniejszych szczytów z Beskidu Sadeckiego",
+        "icon_url": "https://beskid.pttk.pl/wp-content/uploads/2023/02/korona1.jpg",
+        "rules_url": "https://beskid.pttk.pl/kola-kluby-i-komisje/komisja-turystyki-gorskiej/odznaka-korona-beskidu-sadeckiego/"
     },
     {
         "name": "Korona Gór Bialskich",
-        "Address": "http://www.msw-pttk.org.pl/odznaki/reg_odznak/kzkgrp/reg_kgbi.html"
+        "description": "5 najważniejszych szczytów z Gór Bialskich",
+        "icon_url": "https://www.koronygor.pl/images/odznaki/korona_gor_bialskich/korona_gor_bialskich_ziel.jpg",
+        "rules_url": "http://www.msw-pttk.org.pl/odznaki/reg_odznak/kzkgrp/reg_kgbi.html"
     }
 ]
