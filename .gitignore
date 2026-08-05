@@ -29,3 +29,8 @@ env/
 # --- Env variables / Secrets ---
 .env
 *.pem
+
+# --- Uploaded Files / Media ---
+**/uploads/gpx/*
+**/uploads/photos/*
+!.gitkeep
