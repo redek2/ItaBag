@@ -1,5 +1,6 @@
 from pydantic import BaseModel, ConfigDict
 from app.schemas.mountain import MountainResponse
+from app.schemas.photo import PhotoResponse
 import datetime
 
 class TripBase(BaseModel):
@@ -35,3 +36,4 @@ class TripResponse(BaseModel):
 
 class TripDetailsResponse(TripResponse):
     mountains: list[MountainResponse] = []
+    photos: list[PhotoResponse] = []

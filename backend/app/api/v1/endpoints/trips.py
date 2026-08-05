@@ -1,11 +1,15 @@
-from fastapi import APIRouter, Depends, HTTPException, Query
+from fastapi import APIRouter, Depends, HTTPException, Query, UploadFile, File, Form
 from sqlalchemy.orm import Session
 
 from app.database import get_db
 from app import models
 from app.schemas.trip import TripResponse, TripDetailsResponse, TripCreate, TripUpdate
+from app.schemas.photo import PhotoType, PhotoResponse
 
 from datetime import date
+
+import uuid
+import os
 
 router = APIRouter()
 
@@ -57,6 +61,60 @@ def create_trip(
     db.refresh(db_trip)
     return db_trip
 
+@router.post("/{trip_id}/gpx", response_model=TripDetailsResponse, status_code=201)
+def upload_gpx(
+    trip_id: int,
+    file: UploadFile = File(...),
+    db: Session = Depends(get_db)
+):
+    db_trip = db.query(models.Trip).filter(models.Trip.id == trip_id).first()
+    if db_trip is None:
+        raise HTTPException(status_code=404, detail=r"Trip not found ¯\_(ツ)_/¯")
+    
+    if not file.filename or not file.filename.endswith(".gpx"):
+        raise HTTPException(status_code=400, detail="File must have .gpx extension")
+    
+    file_path = f"uploads/gpx/trip_{trip_id}.gpx"
+    with open(file_path, "wb") as f:
+        f.write(file.file.read())
+    db_trip.gpx_path = file_path
+
+    db.commit()
+    db.refresh(db_trip)
+    return db_trip
+
+@router.post("/{trip_id}/photos", response_model=PhotoResponse, status_code=201)
+def upload_photo(
+    trip_id: int,
+    file: UploadFile = File(...),
+    photo_type: PhotoType = Form(...),
+    db: Session = Depends(get_db)
+):
+    db_trip = db.query(models.Trip).filter(models.Trip.id == trip_id).first()
+    if db_trip is None:
+        raise HTTPException(status_code=404, detail=r"Trip not found ¯\_(ツ)_/¯")
+    
+    ALLOWED_MIME_TYPES = ["image/jpeg", "image/png", "image/webp"]
+    if file.content_type not in ALLOWED_MIME_TYPES:
+        raise HTTPException(status_code=400, detail="Invalid file format. Allowed formats: JPG, JPEG, PNG, WEBP.")
+
+    file_extension = os.path.splitext(file.filename)[1]
+    unique_filename = f"{uuid.uuid4()}{file_extension}"
+    file_path = f"uploads/photos/{unique_filename}"
+
+    with open(file_path, "wb") as f:
+        f.write(file.file.read())
+
+    db_photo = models.Photo(
+        trip_id = trip_id,
+        file_path = file_path,
+        photo_type = photo_type
+    )
+    db.add(db_photo)
+    db.commit()
+    db.refresh(db_photo)
+    return db_photo
+    
 @router.patch("/{trip_id}", response_model=TripDetailsResponse)
 def update_trip(
     trip_id: int,

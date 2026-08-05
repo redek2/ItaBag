@@ -67,6 +67,6 @@ class Photo(Base):
     id = Column(Integer, primary_key=True, index=True)
     trip_id = Column(Integer, ForeignKey("trips.id"), nullable=False)
     file_path = Column(String, nullable=False)
-    type = Column(String, nullable=False)  # SUMMIT_PROOF / ROUTE
+    photo_type = Column(String, nullable=False)  # SUMMIT_PROOF / ROUTE
 
     trip = relationship("Trip", back_populates="photos")
