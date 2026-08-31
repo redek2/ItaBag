@@ -8,6 +8,7 @@ from app.api.v1.endpoints.badges import router as badge_router
 from app.api.v1.endpoints.ranges import router as range_router
 from app.api.v1.endpoints.trips import router as trip_router
 from app.api.v1.endpoints.photos import router as photo_router
+from app.api.v1.endpoints.stats import router as stats_router
 
 Base.metadata.create_all(bind=engine)
 
@@ -17,6 +18,7 @@ app.include_router(badge_router, prefix="/api/v1/badges", tags=["badges"])
 app.include_router(range_router, prefix="/api/v1/ranges", tags=["ranges"])
 app.include_router(trip_router, prefix="/api/v1/trips", tags=["trips"])
 app.include_router(photo_router, prefix="/api/v1/photos", tags=["photos"])
+app.include_router(stats_router, prefix="/api/v1/stats", tags=["stats"])
 os.makedirs("uploads/gpx", exist_ok=True)
 os.makedirs("uploads/photos", exist_ok=True)
 app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
