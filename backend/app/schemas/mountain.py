@@ -14,4 +14,9 @@ class MountainBase(BaseModel):
 
 # Schemat wyjściowy (Response Model)
 class MountainResponse(MountainBase):
-    pass
+    is_visited: bool = False
+
+from app.schemas.badge import BadgeResponse
+
+class MountainDetailResponse(MountainResponse):
+    badges: list[BadgeResponse] = []
