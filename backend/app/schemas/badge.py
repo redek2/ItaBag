@@ -1,5 +1,4 @@
 from pydantic import BaseModel, ConfigDict
-from app.schemas.mountain import MountainResponse
 
 class BadgeBase(BaseModel):
     id: int
@@ -12,5 +11,8 @@ class BadgeBase(BaseModel):
 
 class BadgeResponse(BadgeBase):
     pass
+
+from app.schemas.mountain import MountainResponse
+
 class BadgeDetailResponse(BadgeResponse):
     mountains: list[MountainResponse] = []
