@@ -10,7 +10,10 @@ class TripBase(BaseModel):
     rating_effort: int | None = None
     notes: str | None = None
     is_planned: bool = False
-    
+    distance_km: float | None = None
+    elevation_gain_m: int | None = None
+    duration_minutes: int | None = None
+
 class TripCreate(TripBase):
     mountain_ids: list[int] = []
 
@@ -22,15 +25,12 @@ class TripUpdate(BaseModel):
     notes: str | None = None
     is_planned: bool | None = None
     mountain_ids: list[int] | None = None
+    distance_km: float | None = None
+    elevation_gain_m: int | None = None
+    duration_minutes: int | None = None
 
-class TripResponse(BaseModel):
+class TripResponse(TripBase):
     id: int
-    date: datetime.date | None = None
-    gpx_path: str | None = None
-    rating_views: int | None = None
-    rating_effort: int | None = None
-    notes: str | None = None
-    is_planned: bool = False
 
     model_config = ConfigDict(from_attributes=True)
 

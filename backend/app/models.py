@@ -51,6 +51,9 @@ class Trip(Base):
     rating_effort = Column(Integer, nullable=True)
     notes = Column(String, nullable=True)
     is_planned = Column(Boolean, default=False)
+    distance_km = Column(Float, nullable=True)
+    elevation_gain_m = Column(Integer, nullable=True)
+    duration_minutes = Column(Integer, nullable=True)
 
     mountains = relationship("Mountain", secondary="trip_mountains")
     photos = relationship("Photo", back_populates="trip")
