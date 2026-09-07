@@ -1,15 +1,15 @@
-from fastapi import APIRouter, Depends, HTTPException, Query, UploadFile, File, Form
-from sqlalchemy.orm import Session
-
-from app.database import get_db
-from app import models
-from app.schemas.trip import TripResponse, TripDetailsResponse, TripCreate, TripUpdate
-from app.schemas.photo import PhotoType, PhotoResponse
-
+import os
+import uuid
 from datetime import date
 
-import uuid
-import os
+from fastapi import APIRouter, Depends, File, Form, HTTPException, Query, UploadFile
+from sqlalchemy.orm import Session
+
+from app import models
+from app.database import get_db
+from app.schemas.photo import PhotoResponse, PhotoType
+from app.schemas.trip import TripCreate, TripDetailsResponse, TripResponse, TripUpdate
+from app.utils.gpx_parser import parse_gpx_file
 
 router = APIRouter()
 
@@ -78,6 +78,16 @@ def upload_gpx(
     with open(file_path, "wb") as f:
         f.write(file.file.read())
     db_trip.gpx_path = file_path
+
+    try:
+        gpx_data = parse_gpx_file(file_path)
+        db_trip.distance_km = gpx_data["distance_km"]
+        db_trip.elevation_gain_m = gpx_data["elevation_gain_m"]
+        db_trip.duration_minutes = gpx_data["duration_minutes"]
+    except ValueError as e:
+        if os.path.exists(file_path):
+            os.remove(file_path)
+        raise HTTPException(status_code=400, detail=str(e))
 
     db.commit()
     db.refresh(db_trip)
